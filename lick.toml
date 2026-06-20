@@ -1,0 +1,11 @@
+[package]
+name = "bat"
+version = "0.25.0"
+description = "a cat clone with syntax highlighting and git integration"
+homepage = "https://github.com/vicvenscob/bat"
+license = "MIT"
+url = "https://github.com/vicvenscob/bat/archive/refs/heads/master.tar.gz"
+depends = []
+post_install = "cargo build --release && cp target/release/bat /usr/local/bin/bat"
+
+[package.files]
