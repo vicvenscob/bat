@@ -1,6 +1,6 @@
 [package]
 name = "bat"
-version = "0.25.0"
+version = "0.26.1"
 description = "a cat clone with syntax highlighting and git integration"
 homepage = "https://github.com/vicvenscob/bat"
 license = "MIT"
